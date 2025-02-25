@@ -1,3 +1,45 @@
-li:nth-child(2n){
-    background-color: yellow;
+body{
+    background-color: rgb(17, 17, 17);
+    color: rgb(56, 56, 56);
+    margin: 0;
+}
+.container{
+    background-color: rgb(43, 46, 56);
+    height: 200px;
+    width: 200px;
+    position: fixed;
+}
+#img1{
+    height: 125px;
+    position: relative;
+    top: 10px;
+    left: 35px;
+}
+#txt1{
+    color:white;
+    position: relative;
+    left: 55px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#btn1{
+    background-color: rgb(226, 226, 226);
+    color: black;
+    border: none;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 20px;
+    border-radius: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    top: -15px;
+    left: 60px;
+    transition: background-color 0.15s;
+}
+#btn1:hover{
+    background-color: rgb(203, 203, 203);
+}
+#btn1:active{
+    background-color: rgb(132, 132, 132);
 }
